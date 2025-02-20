@@ -1,6 +1,6 @@
 # ¡Hola Spring!
 
-Este es un proyecto básico de Spring Boot que expone un endpoint REST.
+Este es un proyecto básico de Spring Boot que implementa un servicio REST con un endpoint que devuelve un mensaje simple.
 
 ## Requisitos
 
