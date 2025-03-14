@@ -1,53 +1,6 @@
 # 📚 Proyecto Java con Spring Boot 🎬
 
-Este es un proyecto Java utilizando Spring Boot. A continuación se describen los pasos para configurar y ejecutar el proyecto.
-
-## 🗂️ Estructura del Proyecto
-
-```
-.gitattributes
-.gitignore
-bd.sql
-docker-compose.yml
-Dockerfile
-mvnw
-mvnw.cmd
-pom.xml
-.mvn/
-    wrapper/
-        maven-wrapper.properties
-src/
-    main/
-        java/
-            mx/
-    resources/
-        application.properties
-        static/
-        templates/
-test/
-    java/
-        mx/
-target/
-    classes/
-        application.properties
-        mx/
-            ipn/
-        static/
-            css/
-        templates/
-            accessDenied.html
-            admin.html
-            administrador.html
-            editarUsuario.html
-            error.html
-            home.html
-            libros.html
-            login.html
-            ...
-    test-classes/
-        mx/
-            ipn/
-```
+¡Bienvenido al Sistema de Recomendaciones de Libros y Películas! Este proyecto está desarrollado en Java utilizando Spring Boot y tiene como objetivo proporcionar recomendaciones personalizadas de libros y películas a los usuarios. 🌟
 
 ## ✅ Prerrequisitos
 
@@ -89,7 +42,7 @@ target/
 1. Construir la imagen de Docker:
 
     ```sh
-    docker build -t nombre-imagen .
+    docker build -t nombre-imagen . 
     ```
 
 2. Ejecutar el contenedor:
